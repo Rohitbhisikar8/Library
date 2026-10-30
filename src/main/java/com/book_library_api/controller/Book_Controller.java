@@ -38,6 +38,7 @@ public class Book_Controller {
 
 	}
 
+	@GetMapping("all")
 	public List<BookEntity> getAllInfo() {
 		List<BookEntity> allInfo = bookService.getAllInfo();
 
